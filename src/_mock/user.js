@@ -11,7 +11,7 @@ export const users = [...Array(24)].map((_, index) => ({
   isVerified: faker.datatype.boolean(),
   status: sample(['active', 'banned']),
   role: sample([
-    'LOL',
+    'daku',
     'Hr Manager',
     'UI Designer',
     'UX Designer',
